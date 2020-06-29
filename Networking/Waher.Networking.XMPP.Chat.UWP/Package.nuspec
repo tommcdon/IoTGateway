@@ -38,14 +38,14 @@
     <file src="..\..\LICENSE.txt" target="Meta" />
 
     <!-- Architecture-independent reference library for use at compile-time. -->
-    <file src="bin\Release\Waher.Networking.XMPP.Chat.UWP.dll" target="ref\uap10.0" />
-    <file src="bin\Release\Waher.Networking.XMPP.Chat.UWP.pdb" target="ref\uap10.0" />
+    <file src="bin\x86\Release\Waher.Networking.XMPP.Chat.UWP.dll" target="ref\uap10.0" />
+    <file src="bin\x86\Release\Waher.Networking.XMPP.Chat.UWP.pdb" target="ref\uap10.0" />
 
     <!-- XML documentation file goes together with the reference library. -->
     <file src="bin\x86\Release\Waher.Networking.XMPP.Chat.UWP.XML" target="ref\uap10.0" />
 
     <!-- Resource files go together with the reference library. -->
-    <file src="bin\Release\Waher.Networking.XMPP.Chat.UWP.pri" target="ref\uap10.0" />
+    <file src="bin\x86\Release\Waher.Networking.XMPP.Chat.UWP.pri" target="ref\uap10.0" />
 
     <!-- The architecture-specific files go in architecture-specific directories. -->
     <file src="bin\x86\Release\Waher.Networking.XMPP.Chat.UWP.dll" target="runtimes\win10-x86\lib\uap10.0" />
